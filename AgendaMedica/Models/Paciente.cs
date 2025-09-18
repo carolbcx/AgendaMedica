@@ -17,6 +17,9 @@ namespace AgendaMedica.Models
         public string Prontuario { get; set; }
         public string Email { get; set; }
 
+        public string Cidade { get; set; }
+
+
         // Vincular a Identidade ao Paciente (IdentityUser)
         public string? UserId { get; set; } // FK
         public IdentityUser? IdentityUser { get; set; }

@@ -114,6 +114,10 @@ namespace AgendaMedica.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Cidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateOnly>("DataNasc")
                         .HasColumnType("date");
 
